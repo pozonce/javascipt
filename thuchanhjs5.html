@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>thuchanhjs5</title>
+    <script>
+        let sothu1 = 0;
+        let sothu2 = 1;
+        let tong = 0;
+        while (sothu2 < 500) {
+            let next = sothu1 + sothu2;
+            sothu1 = sothu2;
+            sothu2 = next;
+            tong += sothu1;
+        }
+        console.log("Sum of all fibonacci numbers less than 500:", tong);
+    </script>
+</head>
+
+</html>

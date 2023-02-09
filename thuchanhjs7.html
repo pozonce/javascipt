@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>thuchanhjs7</title>
+    <script>
+        class Mobile {
+            constructor(number) {
+                this.number = number;
+            }
+            sendMessage(message, recipient) {
+                console.log(`Sending message "${message}" from ${this.number} to ${recipient.number}`);
+            }
+        }
+        const iphone14promautim128gb = new Mobile("apple");
+        const galaxys23ultra = new Mobile("samsung");
+        iphone14promautim128gb.sendMessage("cái đồ mất giá", galaxys23ultra);
+        galaxys23ultra.sendMessage("hơn cái loại hết chất xám thiết kế", iphone14promautim128gb)
+    </script>
+</head>
+
+</html>

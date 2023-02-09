@@ -1,0 +1,21 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>thuchanhjs4</title>
+    <script>function isPrime(songuyento) {
+            if (songuyento <= 1) return false;
+            for (let i = 2; i < songuyento; i++) {
+                if (songuyento % i == 0) return false;
+            }
+            return true;
+        }
+        let sum = 0;
+        for (let i = 2; i < 500; i++) {
+            if (isPrime(i)) sum += i;
+        }
+        console.log(sum);
+    </script>
+</head>
+
+</html>
